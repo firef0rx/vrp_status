@@ -7,6 +7,8 @@ name "vRP2 Status"
 description "vRP2 Framework NUI"
 version "1.1"
 
+dependency "vrp"
+
 shared_script "@vrp/lib/utils.lua"
 server_script "source/vrp.lua"
 client_script "source/client.lua"
